@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://127.0.0.1:5500/testimonials_slider/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    
+    
+
+    
+
+    <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  <link rel="icon" type="image/png" sizes="32x32" href="http://127.0.0.1:5500/testimonials_slider/images/favicon-32x32.png"><link href="./Frontend Mentor _ Coding Bootcamp Testimonials Slider_files/css2" rel="stylesheet"><link rel="stylesheet" href="./Frontend Mentor _ Coding Bootcamp Testimonials Slider_files/style.css"></head>
+  <body>
+    <div id="slider-container">
+      <div class="container, left-container" id="left-container-one">
+        “ I’ve been interested in coding for a while but never taken the jump,
+        until now. I couldn’t recommend this course enough. I’m now in the job
+        of my dreams and so excited about the future. ”
+        <div class="styling">
+          <p class="name-style"><br>Tanya Sinclair</p>
+          <p class="title-style"><br>UX Engineer</p>
+        </div>
+
+        <div class="curve-image">
+          <img class="curve-img" src="./Frontend Mentor _ Coding Bootcamp Testimonials Slider_files/pattern-curve.svg" alt="">
+        </div>
+      </div>
+
+      <div class="container, right-container" id="right-container-one">
+        <img src="./Frontend Mentor _ Coding Bootcamp Testimonials Slider_files/image-tanya.jpg" alt="" class="tanya-img">
+      </div>
+      <div class="button">
+        <button class="button-container">
+          <img class="prev" src="./Frontend Mentor _ Coding Bootcamp Testimonials Slider_files/icon-prev.svg" alt="">
+
+          <img class="next" src="./Frontend Mentor _ Coding Bootcamp Testimonials Slider_files/icon-next.svg" alt="">
+        </button>
+      </div>
+    </div>
+     <!-- <div class="left-container-two" id="left-container-two">
+      “If you want to lay the best foundation possible I’d recommend taking this
+      course. The depth the instructors go into is incredible. I now feel so
+      confident about starting up as a professional developer. ” 
+      
+      <div class="styling">
+        <p class="name-style"><br />John Tarkpor</p>
+        <p class="title-style"><br />Junior Front-end Developer</p>
+      </div>
+
+
+      <div class="right-container-two" id="right-container-two">
+        <img
+          src="images/image-john.jpg"  alt="" class="john-img">
+      </div>
+    </div -->
+
+
+ 
+
+      
+    
+   
+
+    <script src="./Frontend Mentor _ Coding Bootcamp Testimonials Slider_files/app.js"></script>
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
